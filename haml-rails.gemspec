@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency "haml",          [">= 3.1", "< 5.0"]
   s.add_dependency "activesupport", [">= 4.0.1"]
   s.add_dependency "actionpack",    [">= 4.0.1"]
-  s.add_dependency "railties",      [">= 4.0.1"]
+  s.add_dependency("railties", ">= 3.2.6", "< 5")
 
   s.add_development_dependency "rails",   [">= 4.0.1"]
   s.add_development_dependency "bundler", "~> 1.2"
